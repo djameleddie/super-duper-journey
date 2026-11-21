@@ -47,8 +47,8 @@ jobs:
         shell: pwsh
         run: |
           # Customize your windows appearance
-          Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Bypass
-          iex (Invoke-WebRequest "https://raw.githubusercontent.com/djameleddie/super-duper-journey/refs/heads/main/untitled.ps1").Content
+          # Set-ExecutionPolicy -Scope LocalMachine -ExecutionPolicy Bypass
+          # iex (Invoke-WebRequest "https://raw.githubusercontent.com/djameleddie/super-duper-journey/refs/heads/main/untitled.ps1").Content
 
       - name: Maintain Connection & Show Info
         shell: pwsh
